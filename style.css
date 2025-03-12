@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+}
+
+/* HEADER */
+
+header {
+    background-color: #000000;
+    height: 70px;
+}
+
+.logo {
+    width: 90px;
+    display: inline;
+    float: left;
+}
+
+.nav {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 700;
+    display: inline;
+    float: left;
+    margin: 28px 30px;
+}
+
+.pesquisa {
+    background-color: #FFFFFF;
+    width: 329px;
+    height: 31px;
+    display: inline;
+    border: 1px solid #000000;
+    border-radius: 15.5px;
+    position: fixed;
+    top: 20px;
+    margin-left: 23%;
+}
+
+.lupa {
+    width: 25px;
+    display: inline;
+    margin: 5px 0 0 5px;
+}
+
+#search {
+    width: 295px;
+    height: 31px;
+    display: inline;
+    position: relative;
+    bottom: 9px;
+    border: none;
+    border-radius: 0 15.5px 15.5px 0;
+}
+
+.perfil {
+    width: 55px;
+    margin: 7.5px;
+    float: inline-end;
+}
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    height: 70px;
+    background-color: #000000;
+}
+
+.outros {
+    font-size: 15px;
+    color: #FFFFFF;
+    text-decoration: none;
+    display: inline;
+    margin: 25px;
+    position: relative;
+    bottom: 25px;
+}
+
+.dire {
+    width: 250px;
+    display: inline-block;
+}
+
+.direitos {
+    font-size: 15px;
+    color: #555555;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+}

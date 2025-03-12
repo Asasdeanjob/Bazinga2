@@ -1,0 +1,39 @@
+.carrossel {
+    margin: 10px;
+    width: 98%;
+    height: 420px;
+}
+
+.titulo {
+    margin: 10px;
+    font-family: cursive;
+}
+
+.livro {
+    width: 170px;
+    border: 1px solid #000000;
+    display: inline-block;
+}
+
+.capa {
+    width: 150px;
+    margin: 10px;
+}
+
+.nomeLivro {
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.precoLivro {
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.precoLivro::before {
+    content: "R$";
+}

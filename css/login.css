@@ -1,0 +1,34 @@
+.login {
+    background-color: #283052;
+    width: 60%;
+    margin: 5% 20%;
+}
+
+label {
+    color: #FFFFFF;
+    font-size: 28px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    padding: 0.2em 5%;
+}
+
+#email, #senha{
+    margin: 0 5%;
+    width: 90%;
+    height: 30px;
+    background-color: #222947;
+    border: none;
+    border-radius: 20px;
+}
+
+#enviar {
+    color: #FFFFFF;
+    margin: 5% auto;
+    width: 400px;
+    height: 30px;
+    font-size: 20px;
+    background-color: #222947;
+    display: block;
+    border: none;
+    border-radius: 20px;
+}
