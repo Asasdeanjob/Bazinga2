@@ -71,13 +71,11 @@ footer {
     color: #FFFFFF;
     text-decoration: none;
     display: inline;
-    margin: 25px;
-    position: relative;
-    bottom: 25px;
+    margin: 25px 2.95%; 
 }
 
 .dire {
-    width: 250px;
+    width: 20%;
     display: inline-block;
 }
 
@@ -87,4 +85,5 @@ footer {
     font-weight: 700;
     display: block;
     text-align: center;
+    line-height: 0;
 }

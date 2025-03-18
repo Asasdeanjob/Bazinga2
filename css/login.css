@@ -1,7 +1,12 @@
 .login {
     background-color: #283052;
     width: 60%;
-    margin: 5% 20%;
+    margin: 6.7% 20%;
+    border-radius: 50px;
+}
+
+form {
+    padding: 5%;
 }
 
 label {
@@ -9,7 +14,7 @@ label {
     font-size: 28px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: block;
-    padding: 0.2em 5%;
+    padding: 0.5em 5%;
 }
 
 #email, #senha{
@@ -23,12 +28,24 @@ label {
 
 #enviar {
     color: #FFFFFF;
-    margin: 5% auto;
+    margin: 7% auto 1px;
     width: 400px;
-    height: 30px;
-    font-size: 20px;
+    height: 50px;
+    font-size: 30px;
     background-color: #222947;
     display: block;
     border: none;
-    border-radius: 20px;
+    border-radius: 100px;
+}
+
+.loginCadastro {
+    color: #FFFFFF;
+    display: block;
+    text-align: center;
+    padding: 20px 0 30px;
+}
+
+.loginCadastroLink {
+    color: #0869e8;
+    text-decoration: none;
 }
