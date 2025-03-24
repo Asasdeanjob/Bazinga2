@@ -1,0 +1,26 @@
+.capaArea {
+    width: 20%;
+    display: inline;
+}
+
+.capa {
+    width: 20%;
+    display: inline;
+}
+
+.sobre {
+    display: inline;
+}
+
+.titulo {
+    font-size: larger;
+}
+
+.sinopseArea {
+    width: 60%;
+    display: inline-block;
+}
+
+.sinopse {
+    color: #000000;
+}

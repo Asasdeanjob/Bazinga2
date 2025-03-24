@@ -31,9 +31,9 @@ header {
     display: inline;
     border: 1px solid #000000;
     border-radius: 15.5px;
-    position: fixed;
+    position: absolute;
     top: 20px;
-    margin-left: 23%;
+    margin-left: 17em;
 }
 
 .lupa {
@@ -71,7 +71,7 @@ footer {
     color: #FFFFFF;
     text-decoration: none;
     display: inline;
-    margin: 25px 2.95%; 
+    margin: 25px 1.5em; 
 }
 
 .dire {

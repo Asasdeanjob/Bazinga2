@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bazinga</title>
     <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="/css/produto.css">
+    <link rel="stylesheet" href="/css/pagamento.css">
 
 </head>
 
@@ -33,18 +33,29 @@
 
     <main>
 
-        <div class="capaArea">
-            <img class="capa" src="/imagens/produto/livroTeste.png" alt="Capa">
-        </div>
+        <section class="pagamento">
 
-        <div class="sobre">
-            <h2 class="titulo">Sussurros da floresta</h2>
-            <div class="sinopseArea"><p class="sinopse">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius cum quasi aliquid nisi corrupti temporibus rem possimus, eligendi exercitationem nemo, id nihil consequatur fugit, asperiores illo. Eligendi quod magni laborum.</p></div>
+            <div class="tipo">
+                <img class="pagImg" src="/imagens/pagamento/cartao.png" alt="Cartão">
+                <p class="pagNome">Cartão de Crédito</p>
+                <input type="radio" name="cartao" id="cartao" class="seleciona">
+            </div>
 
-            <p>45,00</p>
+            <div class="tipo">
+                <img class="pagImg" src="/imagens/pagamento/pix.png" alt="Pix">
+                <p class="pagNome">Pix</p>
+                <input type="radio" name="pix" id="pix" class="seleciona">
+            </div>
 
-            <a href="pagamento.html"><button type="submit">COMPRAR</button></a>
-        </div>
+            <div class="tipo">
+                <img class="pagImg" src="/imagens/pagamento/boleto.png" alt="Boleto">
+                <p class="pagNome">Boleto</p>
+                <input type="radio" name="boleto" id="boleto" class="seleciona">
+            </div>
+
+            <input type="submit" value="Avançar" class="submit">
+
+        </section>
 
     </main>
 
