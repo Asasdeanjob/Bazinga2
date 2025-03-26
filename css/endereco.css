@@ -1,0 +1,80 @@
+.endereco {
+    background-color: #283052;
+    width: 60%;
+    height: 470px;
+    margin: 30px auto;
+    border-radius: 50px;
+}
+
+label {
+    color: #FFFFFF;
+    display: block;
+    font-size: 23px;
+}
+
+input {
+    background-color: #222947;
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+}
+
+.ruaArea {
+    width: 60%;
+    display: inline-block;
+    padding: 10px 5%;
+}
+
+#rua {
+    width: 100%;
+}
+
+.numArea {
+    width: 20%;
+    display: inline-block;
+    padding: 10px 5%;
+}
+
+#num {
+    width: 100%;
+}
+
+.cidadeArea {
+    width: 90%;
+    display: inline-block;
+    padding: 10px 5%;
+}
+
+#cidade {
+    width: 100%;
+}
+
+.estadoArea {
+    width: 50%;
+    display: inline-block;
+    padding: 10px 5%;
+}
+
+#estado {
+    width: 100%;
+}
+
+.cepArea {
+    width: 30%;
+    display: inline-block;
+    padding: 10px 5%;
+}
+
+#cep {
+    width: 100%;
+}
+
+.submit {
+    color: #FFFFFF;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    height: 2em;
+    text-decoration: none;
+}

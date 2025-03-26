@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bazinga</title>
     <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="/css/pagamento.css">
+    <link rel="stylesheet" href="/css/entrega.css">
 
 </head>
 
@@ -33,27 +33,31 @@
 
     <main>
 
-        <fieldset class="pagamento">
+        <fieldset class="entrega">
 
-            <div class="tipo">
-                <img class="pagImg" src="/imagens/pagamento/cartao.png" alt="Cartão">
-                <label for="cartao" class="pagNome">Cartão de Crédito</label>
-                <input type="radio" name="cartao" id="cartao" class="seleciona">
+            <div class="parte">
+                <img class="entregaImg" src="/imagens/entrega/pedido.png" alt="Carrinho de Compra">
+                <label for="pedido" class="entregaNome">Fez o pedido</label>
+                <input type="radio" name="pedido" id="pedido" class="feito" disabled>
             </div>
 
-            <div class="tipo">
-                <img class="pagImg" src="/imagens/pagamento/pix.png" alt="Pix">
-                <label for="pix" class="pagNome">Pix</label>
-                <input type="radio" name="pix" id="pix" class="seleciona">
+            <div class="parte">
+                <img class="entregaImg" src="/imagens/entrega/pagou.png" alt="Dinheiro">
+                <label for="pagou" class="entregaNome">Pagamento confirmado</label>
+                <input type="radio" name="pagou" id="pagou" class="feito" disabled>
             </div>
 
-            <div class="tipo">
-                <img class="pagImg" src="/imagens/pagamento/boleto.png" alt="Boleto">
-                <label for="boleto" class="pagNome">Boleto</label>
-                <input type="radio" name="boleto" id="boleto" class="seleciona">
+            <div class="parte">
+                <img class="entregaImg" src="/imagens/entrega/saiu.png" alt="Caminhão">
+                <label for="saiu" class="entregaNome">Saiu para entrega</label>
+                <input type="radio" name="saiu" id="saiu" class="feito" disabled>
             </div>
 
-            <a href="endereco.html"><input type="submit" value="Avançar" class="submit"></a>
+            <div class="parte">
+                <img class="entregaImg" src="/imagens/entrega/chegou.png" alt="Caixa">
+                <label for="chegou" class="entregaNome">Entregue</label>
+                <input type="radio" name="chegou" id="chegou" class="feito" disabled>
+            </div>
 
         </fieldset>
 

@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bazinga</title>
     <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="/css/pagamento.css">
+    <link rel="stylesheet" href="/css/endereco.css">
 
 </head>
 
@@ -30,32 +30,40 @@
         <a href="html/login.html"><img class="perfil" src="/indexImage/perfil.png" alt="Perfil"></a>
 
     </header>
-
+    
     <main>
 
-        <fieldset class="pagamento">
+        <section class="endereco">
 
-            <div class="tipo">
-                <img class="pagImg" src="/imagens/pagamento/cartao.png" alt="Cartão">
-                <label for="cartao" class="pagNome">Cartão de Crédito</label>
-                <input type="radio" name="cartao" id="cartao" class="seleciona">
+            <br>
+            <div class="ruaArea">
+                <label for="rua">Rua:</label>
+                <input type="text" name="rua" id="rua">
             </div>
 
-            <div class="tipo">
-                <img class="pagImg" src="/imagens/pagamento/pix.png" alt="Pix">
-                <label for="pix" class="pagNome">Pix</label>
-                <input type="radio" name="pix" id="pix" class="seleciona">
+            <div class="numArea">
+                <label for="num">Nº:</label>
+                <input type="number" name="num" id="num">
             </div>
 
-            <div class="tipo">
-                <img class="pagImg" src="/imagens/pagamento/boleto.png" alt="Boleto">
-                <label for="boleto" class="pagNome">Boleto</label>
-                <input type="radio" name="boleto" id="boleto" class="seleciona">
+            <div class="cidadeArea">
+                <label for="cidade">Cidade:</label>
+                <input type="text" name="cidade" id="cidade">
+            </div>
+            
+            <div class="estadoArea">
+                <label for="estado">Estado:</label>
+                <input type="text" name="estado" id="estado">
             </div>
 
-            <a href="endereco.html"><input type="submit" value="Avançar" class="submit"></a>
+            <div class="cepArea">
+                <label for="cep">CEP:</label>
+                <input type="number" name="cep" id="cep">
+            </div>
 
-        </fieldset>
+            <a href="/index.html" style="text-decoration: none;"><input type="submit" value="Finalizar" class="submit"></a>
+
+        </section>
 
     </main>
 
