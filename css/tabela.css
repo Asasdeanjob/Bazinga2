@@ -1,0 +1,36 @@
+table {
+    width: 90%;
+    margin-top: 10%;
+    margin-left: 5%;
+    border-collapse: collapse;
+}
+
+th {
+    border: 2px solid black;
+    padding: 8px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+
+td {
+    border: 2px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #ccc;
+}
+
+.tdOne,
+.tdTwo,
+.tdThree,
+.tdFour,
+.tdFive,
+.tdSix,
+.tdSeven,
+.tdEight {
+    cursor: pointer;
+}

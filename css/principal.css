@@ -10,20 +10,30 @@
 }
 
 .livro {
-    width: 170px;
+    width: 200px;
     border: 1px solid #000000;
     display: inline-block;
 }
 
-.capa {
+.capaFantasia {
     width: 150px;
-    margin: 10px;
+    margin-left: 13%;
+}
+
+.capaRomance {
+    width: 150px;
+    margin-left: 13%;
+}
+
+.capaAventura {
+    width: 150px;
+    margin-left: 13%;
 }
 
 .nomeLivro {
     color: #000000;
     font-size: 20px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 700;
     margin: 10px;
 }
@@ -31,7 +41,7 @@
 .precoLivro {
     color: #000000;
     font-size: 20px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 700;
     margin: 10px;
 }

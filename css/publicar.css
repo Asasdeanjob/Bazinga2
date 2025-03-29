@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #f8f8f8;
+}
+
+.container {
+    margin-top: 5%;
+    margin-left: 5%;
+    display: flex;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.24);
+    width: 1200px;
+    height: 600px;
+}
+
+.imagemLivro {
+    position: relative;
+    width: 350px;
+    height: 550px;
+    background: gray;
+    margin-right: 5%;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.imagemLivro img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+}
+
+.imagemLivro span {
+    color: white;
+    font-size: 14px;
+}
+
+#fileInput {
+    display: none;
+}
+
+.form {
+    flex: 1;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+input,
+textarea {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 5%;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: #e8e8e8;
+}
+
+.inputs {
+    margin-top: 25%;
+    display: flex;
+    width: 40%;
+    gap: 20px;
+}
+
+.inputs div {
+    flex: 1;
+}
+
+#salvar {
+    color: #FFFFFF;
+    width: 50%;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 5%;
+    background-color: #222947;
+    display: block;
+    border: none;
+    cursor: pointer;
+    border-radius: 100px;
+}
+
+#salvar:hover {
+    background-color: #101025;
+}

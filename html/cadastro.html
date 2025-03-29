@@ -14,28 +14,29 @@
 
 <body>
 
-    <header>
+    <nav>
+        <ul>
+            <a href="cadastro.html"><img class="logo" src="/indexImage/logo.png" alt="Logo"></a>
+            <li>
+                <a style="margin-top: 38%;"></a>
+                <ul class="dropdown">
+                </ul>
+            </li>
+            <li>
+                <a></a>
+                <ul class="dropdown">
+                </ul>
+            </li>
 
-        <img class="logo" src="/indexImage/logo.png" alt="Logo">
-
-        <nav class="nav">Categorias`´</nav>
-        <nav class="nav">Top da Semana</nav>
-        <nav class="nav">Mais Vendidos</nav>
-        
-        <!-- <div class="pesquisa"> 
-            <img class="lupa" src="/indexImage/lupa.png" alt="lupa">
-            <input type="search" name="search" id="search" placeholder="Pesquise Aqui">
-        </div> -->
-
-        <a href="html/login.html"><img class="perfil" src="/indexImage/perfil.png" alt="Perfil"></a>
-
-    </header>
+            <a href="login.html"><img class="perfil" src="/indexImage/perfil.png" alt="Perfil"></a>
+        </ul>
+    </nav>
 
     <main>
 
         <section class="login">
             <form>
-    
+
                 <label for="nome">Nome:</label>
                 <input type="text" name="nome" id="nome">
 
@@ -48,10 +49,16 @@
                 <label for="senha">Email:</label>
                 <input type="password" name="senha" id="senha">
 
-                <input type="submit" value="Enviar" id="enviar">
-    
+                <input onclick="redirecionar()" type="submit" value="Enviar" id="enviar">
+
+                <script>
+                    function redirecionar() {
+                        window.location.href = "/html/login.html";
+                    }
+                </script>
+
             </form>
-            
+
             <p class="loginCadastro">Já tem conta? <a class="loginCadastroLink" href="/html/login.html">Entrar</a></p>
         </section>
 
@@ -75,7 +82,7 @@
         <a class="outros" href="">OUTROS COMÉRCIOS</a>
 
     </footer>
-    
+
 </body>
 
 </html>

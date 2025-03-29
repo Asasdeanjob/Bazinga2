@@ -1,0 +1,173 @@
+/*Relatório Usuario */
+.relatorio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    background-color: #283052;
+    width: 40%;
+    height: 420px;
+    margin: 6.7% 6%;
+    padding: 1%;
+    border-radius: 50px;
+}
+
+.usuario {
+    margin: 1em;
+    padding: 2%;
+    background-color: #222947;
+    width: 85%;
+    height: 10%;
+    border-radius: 3em;
+}
+
+.nomeUsuario {
+    color: #ffffff;
+    font-weight: bold;
+    display: inline;
+    margin: 17%;
+    font-size: 32px;
+}
+
+.submitUsuario {
+    color: #FFFFFF;
+    margin: 7% auto 1px;
+    width: 250px;
+    height: 40px;
+    margin-top: 105%;
+    margin-left: 0%;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #222947;
+    display: block;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.texto-central {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*Relatório Produtos */
+
+.relatorioDois {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    background-color: #283052;
+    width: 40%;
+    height: 420px;
+    padding: 1%;
+    margin: 6.7% 6%;
+    border-radius: 50px;
+}
+
+.produtos {
+    margin: 1em;
+    padding: 2%;
+    background-color: #222947;
+    width: 85%;
+    height: 10%;
+    border-radius: 3em;
+}
+
+.nomeProdutos {
+    color: #ffffff;
+    font-weight: bold;
+    display: inline;
+    margin: 22%;
+    font-size: 32px;
+}
+
+.submitProdutos {
+    color: #FFFFFF;
+    margin: 7% auto 1px;
+    width: 250px;
+    height: 40px;
+    margin-top: 105%;
+    margin-left: 0%;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #222947;
+    display: block;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+/*Relatório Compras*/
+
+.relatorioTres {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    background-color: #283052;
+    width: 40%;
+    height: 420px;
+    padding: 1%;
+    margin: 6.7% 6%;
+    border-radius: 50px;
+}
+
+.compras {
+    margin: 1em;
+    padding: 2%;
+    background-color: #222947;
+    width: 85%;
+    height: 10%;
+    border-radius: 3em;
+}
+
+.nomeCompras {
+    color: #ffffff;
+    font-weight: bold;
+    display: inline;
+    margin: 22%;
+    font-size: 32px;
+}
+
+.submitCompras {
+    color: #FFFFFF;
+    margin: 7% auto 1px;
+    width: 250px;
+    height: 40px;
+    margin-top: 105%;
+    margin-left: 0%;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #222947;
+    display: block;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.informacaoCompras {
+    color: #ffffff;
+    font-weight: bold;
+    display: inline;
+    margin-bottom: 60;
+    margin: 18%;
+    font-size: 18px;
+}
+
+.todosRelatorios {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

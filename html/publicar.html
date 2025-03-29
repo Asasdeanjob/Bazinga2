@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/css/publicar.css">
+    <title>Publicar</title>
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <a href="/indexFuncionario.html"><img class="logo" src="/indexImage/logo.png" alt="Logo"></a>
+            <li>
+                <a href="#">Categoria ▾</a>
+                <ul class="dropdown">
+                    <li><a href="#fantasia">Fantasia</a></li>
+                    <li><a href="#romance">Romance</a></li>
+                    <li><a href="#aventura">Aventura</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Top da Semana</a></li>
+            <li><a href="#">Mais Vendidos</a></li>
+            <li>
+                <a href="#">Funcionário ▾</a>
+                <ul class="dropdown">
+                    <li><a href="/html/tabela.html">Tabela</a></li>
+                    <li><a href="/html/publicar.html">Publicar Livro</a></li>
+                    <li><a href="/html/relatorio.html">Relatório</a></li>
+                </ul>
+            </li>
+
+            <a href="/html/login.html"><img class="perfil" src="/indexImage/perfil.png" alt="Perfil"></a>
+        </ul>
+    </nav>
+
+
+    <div class="container">
+        <!-- Container para a imagem -->
+        <div class="imagemLivro" onclick="document.getElementById('fileInput').click()">
+            <span>Clique para adicionar imagem</span>
+            <img id="previewImage" src="" alt="Imagem do Produto">
+        </div>
+
+        <input type="file" id="fileInput" accept="image/img" onchange="carregarImagem(event)">
+
+        <div class="form">
+            <label for="titulo">Nome/Título:</label>
+            <input type="text" id="titulo" placeholder="Digite o nome/título">
+
+            <label for="descricao">Descrição/Sinopse:</label>
+            <textarea id="descricao" placeholder="Digite a descrição"></textarea>
+
+            <div class="inputs">
+                <div>
+                    <label for="preco">Preço:</label>
+                    <input type="text" id="preco" placeholder="R$">
+                </div>
+                <div>
+                    <label for="quantidade">Quantidade:</label>
+                    <input type="number" id="quantidade" min="1">
+                </div>
+            </div>
+
+            <input type="submit" value="Salvar" id="salvar">
+        </div>
+    </div>
+
+    <script>
+
+        function carregarImagem(event) {
+            const input = event.target;
+            const file = input.files[0];
+
+            if (file && file.type === "image/png" || "image/jpeg" || "image/jpg" || "image/webp") {
+                const reader = new FileReader();
+
+                reader.onload = function (e) {
+                    const img = document.getElementById('previewImage');
+                    img.src = e.target.result;
+                    img.style.display = "block";
+                    document.querySelector('.imagemLivro span').style.display = "none";
+                };
+
+                reader.readAsDataURL(file);
+            } else {
+                alert("Por favor, selecione uma Imagem");
+                input.value = "";
+            }
+        }
+
+        function salvarProduto() {
+            alert("Produto salvo com sucesso!");
+        }
+    </script>
+
+    <footer style="margin-top: 5%;">
+
+        <br>
+        <a class="outros" href="">CONTATO</a>
+        <a class="outros" href="">TRABALHE CONOSCO</a>
+        <a class="outros" href="">TERMOS E CONDIÇÃO</a>
+
+        <div class="dire">
+            <p class="direitos">Bazinga Livraria</p>
+            <br>
+            <p class="direitos">©Todos os Direitos Reservados</p>
+        </div>
+
+        <a class="outros" href="">PRIVACIDADE</a>
+        <a class="outros" href="">SOBRE NÓS</a>
+        <a class="outros" href="">OUTROS COMÉRCIOS</a>
+
+    </footer>
+
+</body>
+
+</html>
